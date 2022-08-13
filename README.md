@@ -19,7 +19,7 @@ At the beginning, the image is plotted with matplotlib, then we run the algorith
 
 ### Conclusion
 
-Practicing segmentation is one of the most difficult exercise in computer vision and doing it with K-means allow us to have a first step with it. Indeed, it performs segmentation but it's not perfect as we use clustering, the classes are not labelled as if we trained a neural network on a labelled dataset.
+Practicing segmentation is one of the most difficult exercise in computer vision and doing it with K-means allow us to have a first step with it. Indeed, it performs segmentation but it's not perfect as we use clustering, the classes are not labelled as if we trained a neural network on a labelled dataset and some very spatially close different objects with almost the same color end up with the same class predicted
 
 ### Results
 
