@@ -13,7 +13,7 @@ import numpy as np
 from copy import deepcopy
 
 
-WEIGHT=[0.1,0.1,0.5,0.5,0.5,0.1,0.1]
+WEIGHT=[0.1,0.1,0.4,0.4,0.4,0.1,0.1]
 NUM_PARAM=len(WEIGHT)
 K=3
 
@@ -221,7 +221,7 @@ def AfficheClasses(data, seg_data, classes):
         AfficheImage(matrice)
 
 if __name__ =='__main__':
-    matrice=LoadImage("landscape7.jpg")
+    matrice=LoadImage("landscape4.jpg")
     AfficheImage(matrice)
     data=ListPixel(matrice)
     Edges(matrice, data)
